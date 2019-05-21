@@ -15,37 +15,39 @@ next: ../code/html/
 
 ### 项目命名
 
-- 全部采用小写方式， 以横线分隔。（自己的项目、组件、插件使用的居多）
+- 驼峰式命名法介绍
+
+Pascal Case 大驼峰式命名法（推荐）：首字母大写。eg：StudentInfo、UserInfo、ProductInfo
+
+Camel Case 小驼峰式命名法：首字母小写。eg：studentInfo、userInfo、productInfo
+
+- 采用小写方式， 以横线分隔。（自己的项目、组件、插件使用的居多）
 
 例：my-project-name 和 front-end-develop-standard
-
-~~- PascalCase 帕斯卡命名法。(一些大厂项目也经常采用此类命名法)~~
-
-~~例：MyProjectName~~
 
 ### 目录命名
 
 参照项目命名规则； 有复数结构时，要采用复数命名法。
 
-例：scripts, styles, images,components data_models
+例：scripts, styles, images，components，DataModels
 
 ### HTML文件命名
 
 参照项目命名规则。
 
-例：error_report.html
+例：error_report.html，ErrorReport.html
 
 ### CSS, SCSS文件命名
 
 参照项目命名规则。
 
-例：retina_sprites.scss
+例：retina_sprites.scss，RetinaSprites.scss
 
 ### JS文件命名
 
 参照项目命名规则。
 
-例：account_model.js
+例：account_model.js，AccountModel.js
 
 ## CSS, SCSS类命名
 

@@ -18,13 +18,13 @@ module.exports = {
     ],
     DEST: '.vuepress/dist', // 指定输出目录
     themeConfig: {
-        lastUpdated: '上次更新',
-        serviceWorker: {
-            updatePopup: {
-                message: '发现新内容可用',
-                buttonText: '刷新'
-            }
-        },
+        // lastUpdated: '上次更新',
+        // serviceWorker: {
+        //     updatePopup: {
+        //         message: '发现新内容可用',
+        //         buttonText: '刷新'
+        //     }
+        // },
         displayAllHeaders: true, // 展开所有标题
         nav: [
             {
