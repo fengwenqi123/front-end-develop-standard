@@ -67,9 +67,102 @@ module.exports = {
             {
                 text: '关于',
                 link: '/about/'
+            },
+            {
+                text: '框架',
+                items: [
+                    {
+                        text: '原生开发框架',
+                        items: [
+                            {
+                                text: '介绍',
+                                link: '/frame/native/introduce/'
+                            },
+                            {
+                                text: '配置',
+                                link: '/frame/native/config/'
+                            },
+                            {
+                                text: '权限',
+                                link: '/frame/native/Jurisdiction/'
+                            },
+                            {
+                                text: '路由',
+                                link: '/frame/native/router/'
+                            },
+                            {
+                                text: '侧边栏',
+                                link: '/frame/native/sidebar/'
+                            },
+                            {
+                                text: '混入',
+                                link: '/frame/native/mixin/'
+                            }
+                        ]
+                    },
+                    {
+                        text: '混合开发框架',
+                        items: [
+                            {
+                                text: '介绍',
+                                link: '/frame/mix/introduce/'
+                            }
+                        ]
+                    }
+                ]
             }
         ],
         sidebar: {
+            // 框架
+            '/frame/native/config/': [
+                {
+                    title: '配置',
+                    collapsable: false,
+                    children: ['/frame/native/config/']
+                }
+            ],
+            '/frame/native/introduce/': [
+                {
+                    title: '介绍',
+                    collapsable: false,
+                    children: ['/frame/native/introduce/']
+                }
+            ],
+            '/frame/native/Jurisdiction/': [
+                {
+                    title: '权限',
+                    collapsable: false,
+                    children: ['/frame/native/Jurisdiction/']
+                }
+            ],
+            '/frame/native/router/': [
+                {
+                    title: '路由',
+                    collapsable: false,
+                    children: ['/frame/native/router/']
+                }
+            ],
+            '/frame/native/sidebar/': [
+                {
+                    title: '侧边栏',
+                    collapsable: false,
+                    children: ['/frame/native/sidebar/']
+                }
+            ],
+            '/frame/native/mixin/': [
+                {
+                    title: '混入',
+                    collapsable: false,
+                    children: ['/frame/native/mixin/']
+                }
+            ],
+            '/frame/mix/introduce/': [
+                {
+                    title: '介绍',
+                    collapsable: false,
+                    children: ['/frame/mix/introduce/']
+                }
+            ],
             // 命名规范
             '/name/': [
                 {
