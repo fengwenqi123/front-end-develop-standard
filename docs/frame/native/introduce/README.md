@@ -21,7 +21,6 @@ next: ../config/
   - 权限配置
 
 - 全局功能
-  - 国际化多语言
   - 动态侧边栏
   - 动态面包屑
   - 快捷导航
@@ -60,7 +59,6 @@ next: ../config/
 │   ├── directive              # 全局指令
 │   ├── filters                # 全局 filter
 │   ├── icons                  # 项目所有 svg icons
-│   ├── lang                   # 国际化 language
 │   ├── layout                 # 全局 layout
 │   ├── router                 # 路由
 │   ├── store                  # 全局 store管理

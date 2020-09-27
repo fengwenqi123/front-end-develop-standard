@@ -1,6 +1,6 @@
 ---
 prev: ../../../about/
-next: ../config/
+next: false
 ---
 
 # 介绍
